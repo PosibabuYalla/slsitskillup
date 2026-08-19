@@ -10,7 +10,7 @@ const CoursesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('All')
   const [searchTerm, setSearchTerm] = useState('')
 
-  const categories = ['All', 'Web Development', 'Data Science', 'Mobile Development', 'Cybersecurity', 'Cloud Computing', 'Design']
+  const categories = ['All', 'Web Development', 'Data Science', 'Mobile Development', 'Cybersecurity', 'Cloud Computing', 'Design', 'Mechanical Design', 'Manufacturing Engineering', 'Renewable Energy']
 
   const courses = [
     {
@@ -180,6 +180,63 @@ const CoursesPage = () => {
       category: "Design",
       instructor: "Arjun Patel",
       modules: 8,
+      projects: 4,
+      certificate: true,
+      featured: false
+    },
+    {
+      id: 10,
+      title: "Renewable Energy & Energy Engineering",
+      description: "Learn solar, wind, and modern energy systems design for a sustainable engineering career.",
+      duration: "5 months",
+      students: "600+",
+      rating: 4.6,
+      price: "₹22,000",
+      originalPrice: "₹30,000",
+      image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=400&h=250&fit=crop",
+      tags: ["Solar Power", "Wind Energy", "Energy Systems", "Sustainability"],
+      level: "Intermediate",
+      category: "Renewable Energy",
+      instructor: "Dr. Priya Sharma",
+      modules: 10,
+      projects: 4,
+      certificate: true,
+      featured: false
+    },
+    {
+      id: 11,
+      title: "Mechanical Design Engineering",
+      description: "Master CAD, product development, and machine design using SolidWorks and ANSYS.",
+      duration: "6 months",
+      students: "800+",
+      rating: 4.7,
+      price: "₹24,000",
+      originalPrice: "₹32,000",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=250&fit=crop",
+      tags: ["SolidWorks", "ANSYS", "CAD", "Machine Design"],
+      level: "Intermediate",
+      category: "Mechanical Design",
+      instructor: "Rajesh Kumar",
+      modules: 11,
+      projects: 5,
+      certificate: true,
+      featured: false
+    },
+    {
+      id: 12,
+      title: "Manufacturing Engineering",
+      description: "Master production systems, Industry 4.0, CNC machining, and 3D printing technologies.",
+      duration: "5 months",
+      students: "550+",
+      rating: 4.5,
+      price: "₹21,000",
+      originalPrice: "₹28,000",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop",
+      tags: ["CNC Machining", "3D Printing", "Industry 4.0", "Production"],
+      level: "Intermediate",
+      category: "Manufacturing Engineering",
+      instructor: "Arjun Patel",
+      modules: 9,
       projects: 4,
       certificate: true,
       featured: false
